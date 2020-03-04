@@ -3280,7 +3280,7 @@
 	});
 
 	$('#owl-testimonial').owlCarousel({
-	    items:2,
+	    items:1,
 	    loop:true,
 	    dots:true,
 	    autoplay:true,
@@ -3292,11 +3292,11 @@
 		        dots:true
 		    },
 		    600:{
-		        items:2,
+		        items:1,
 		        dots:true
 		    },
 		    1000:{
-		        items:2,
+		        items:1,
 		        dots:true,
 		        loop:true
 		    }
