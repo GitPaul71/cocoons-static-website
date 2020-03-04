@@ -1402,7 +1402,7 @@ img{
 	top:0px;
 	right:0px;
 	display: block;
-	z-index: 99999;
+	z-index: 9999;
 }
 
 .main-header .header-top{
@@ -1612,6 +1612,8 @@ img{
 	position:relative;
 	display:inline-block;
 	max-width:100%;
+	max-height: 55px; 
+	top: 7px
 }
 
 .main-header .header-upper .nav-outer{
@@ -5885,6 +5887,7 @@ img{
 .page-title{
 	position:relative;
 	padding:190px 0px 100px;
+	height: 440px;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:right center;
@@ -5897,6 +5900,9 @@ img{
 	top:0px;
 	right:0px;
 	bottom:0px;
+	height: 440px;
+	background: #000000;
+	opacity: 0.4;
 	transition: all 900ms ease;
     -moz-transition: all 900ms ease;
     -webkit-transition: all 900ms ease;

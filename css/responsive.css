@@ -5,6 +5,11 @@
 	.project-section-three .outer-container{
 		padding:0px 30px;
 	}
+
+	.page-title .auto-container{
+		position:relative;
+		margin-top: -50px;
+	}
 	
 }
 
@@ -882,7 +887,6 @@
 	.sidebar-page-container{
 		padding: 60px 0px 0px;
 	}
-	
 }
 
 @media only screen and (max-width: 768px){
@@ -1402,6 +1406,46 @@
 		padding: 60px 0px 0px;
 	}
 	
+}
+
+@media only screen and (max-width:664px) {
+	.main-header .logo-outer .logo img{
+		position:relative;
+		display:inline-block;
+		max-width:100%;
+		max-height: 55px; 
+		top: -5px
+	}
+
+	.nav-outer .mobile-nav-toggler{
+		position: relative;
+		font-size: 36px;
+		line-height: 20px;
+		cursor: pointer;
+		color:#000;
+		padding: 0px 0px 0px;
+		display: none;
+		top: 0px;
+	}
+
+	.page-title .auto-container{
+		position:relative;
+		margin-top: 130px;
+	}
+
+	.page-title h2 {
+		position:relative;
+		font-family: 'Gotham Medium', sans-serif;
+		color:#ffffff;
+		font-weight:540;
+		line-height:1.2em;
+		font-size:45px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		border-top: 1px solid #ffffff;
+		border-bottom: 1px solid #ffffff;
+		padding: 10px;
+	}
 }
 
 @media only screen and (max-width: 599px){
